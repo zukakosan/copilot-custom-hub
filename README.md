@@ -136,6 +136,13 @@ ws-skills-inventory-zukako/
 - `azure-research`: Microsoft Learn MCP（`microsoft.docs.mcp`）と
   Release Communications MCP（`mrc-mcp-server`）だけを使い、必ず出典リンク付きで
   Azure 技術情報を調べる読み取り専用エージェント。
+- `azure-factcheck`: 与えられた主張を公式一次情報だけで検証し、✅/⚠️/❓ の判定と
+  出典を返すファクトチェック専門エージェント。
+- `azure-qa-agent`: `azure-research`（収集）→ `azure-factcheck`（検証）を順に呼び、
+  出典付きの回答をチャットで返すオーケストレーター（ファイルは生成しない）。
+- `azure-doc-writer`: 同じく research → factcheck を順に呼び、検証済み・出典付きの
+  内容を `edit` で `.md` ファイルとして生成するオーケストレーター（既定の保存先は
+  `output/`）。「資料化・ドキュメント生成」など成果物が欲しいときに選ぶ。
 
 ```markdown
 ---
