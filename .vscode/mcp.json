@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "microsoft.docs.mcp": {
+            "type": "http",
+            "url": "https://learn.microsoft.com/api/mcp"
+        },
+        "MRC-MCP-Server": {
+            "type": "http",
+            "url": "https://www.microsoft.com/releasecommunications/mcp"
+        }
+    }
+}
