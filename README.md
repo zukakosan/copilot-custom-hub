@@ -1,4 +1,4 @@
-# ws-skills-inventory-zukako
+# Copilot Customizations Hub
 
 個人用の GitHub Copilot **Agent Skills** と **カスタムエージェント** の置き場（git 管理）。
 
